@@ -40,7 +40,7 @@ public class World extends Fragment {
         });
 
         ImageView imageView = view.findViewById(R.id.myGifImageView);
-        Glide.with(this).asGif().load(R.drawable.helloturtle).into(imageView); // replace 'your_gif_name' with your GIF file name
+        Glide.with(this).asGif().load(R.drawable.helloturtle).into(imageView);
 
     }
 
